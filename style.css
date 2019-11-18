@@ -1,0 +1,153 @@
+body{
+    background: url('http://rosfotooboi.ru/images/cms/data/dp/katalog/strany-i-goroda/neboskreby/12688256.jpg'); 
+    background-position: top; /* Положение фона */
+    background-repeat: no-repeat;
+     
+}
+
+.imgCenter{
+    background-color: #fff;
+    background-position: absolute;
+    margin: 220px 200px 220px 280px;
+    width: 450px;
+    height: 600px;
+    text-align:center; 
+    border-radius: 1%; 
+    position: relative
+}
+
+.button {
+    position: absolute;
+    display: inline-block;
+    left:410px;
+    top: 5px;
+    padding: 5px 10px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:#9EA6B1;
+    background-color: #F3F2F0;
+    border: none;
+    border-radius: 5px;
+    /*box-shadow: 0 5px #999;*//*тень кнопки*/
+  }
+  
+  .button:hover {background-color:#F3F2F0}
+  
+  .button:active {
+    background-color:#F3F2F0;
+    box-shadow: 1 2px #666;
+    transform: translateY(2px);
+  }
+    
+.button_facebook{
+    position: absolute;
+    background-color:#4264AB;
+    color: white;
+    border-color:#4264AB;
+    text-align: center;
+    border-radius: 5px;
+    padding: 25px;
+    font-size: 12px;
+    left: 70px;
+    top: 120px
+}
+
+.ortext{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    top: 200px;
+    left:220px;
+}
+
+.button_new{
+    position: absolute;
+    color: #9199A6;
+    background-color:#FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 12px;
+    left: 80px;
+    top: 235px;
+}
+
+.button_account{
+    position: absolute;
+    color:#FFFFFF;
+    background-color: #9199A6;
+    text-align: center;
+    border-radius: 5px;
+    padding: 17px 15px;
+    font-size: 12px;
+    left: 225px;
+    top: 235px;
+    border: #9199A6;
+}
+    
+.line{
+    position: absolute;
+    text-align: center;
+    color: #9199A6;
+    width: 430px;
+    left: 10px;
+    top: 275px;
+}
+
+.image{
+    position: absolute;
+    display: block;
+    top: -80px;
+    left: 150px;
+    height: 160px;
+}
+    
+#form{
+    position: absolute;
+    left: 75px;
+    top: 290px;
+    color: #646567;
+    font-size: 12px;
+    text-align: left;
+    line-height: 2.5;
+    font-family: system-ui;/*не нашла нужный шрифт((*/
+}
+
+#text{
+    font-size: 18px;
+    color: #646567;
+    font-family: system-ui;/*не нашла нужный шрифт((*/
+    width: 120px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 15px;
+    width: 285px;
+    box-shadow: none;/*как убрать тень?*/
+}
+
+.forgot{
+    position: absolute;
+    color: #9199A6;
+    top: 455px;
+    font-size: 14px;
+    font-family: garamond, serif;
+    right: 65px;
+
+}
+
+.button_login{
+    position: absolute;
+    background-color: #82CCB5;
+    color: white;
+    border-color:#82CCB5;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 45px;
+    font-size: 12px;
+    left: 160px;
+    top: 500px
+}
+
